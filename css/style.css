@@ -1,0 +1,63 @@
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+input {
+    color: black;
+    padding: 16px;
+    outline: none;
+    font-size: 32px;
+    border-radius: 25%;
+    margin: 2px;
+}
+
+#formc {
+    background-color: rgb(247, 247, 247);
+    border: 6px  groove black;
+    border-radius: 5%;
+}
+
+.main {
+    display: inline-block;
+}
+
+
+.numain, .sinais, #sinal_igual {
+    width: 64px;
+    height: 72px;
+    background-color: #ccc;
+    margin: 4px;
+}
+
+.sinais {
+    background-color: #fff;
+}
+
+#sinal_igual {
+    background-color: gray;
+}
+
+.textomain {
+    width: 164px;
+    height: 32px;
+    border-radius: 25%;
+    letter-spacing: 6px;
+    margin-bottom: 12px;
+    text-align: right;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 4px;
+}
+
+#textoc {
+    width: 32px;
+    height: 32px;
+    background-color: gray;
+    margin: 4px;
+}

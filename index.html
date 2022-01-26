@@ -12,10 +12,10 @@
 <body>
 
     <div class="main">
-        <form action="" name="Calculator">
+        <form action="" id="formc" name="Calculator">
 
             <input type="text" class="textomain" name="text1" value="" disabled>
-            <input type="text" class="textomain" name="text12" value="C"
+            <input type="text" id="textoc" name="text12" value="C"
                 onclick="location.reload()"><br>
 
             <input type="button" class="numain" name="btt9" value="9" onclick="displaynum(btt9.value)">
@@ -38,7 +38,7 @@
 
             <input type="button" class="numain" name="dot" value="." onclick="displaynum(dot.value)">
             <input type="button" class="numain" name="btt0" value="0" onclick="displaynum(btt0.value)">
-            <input type="button" class="sinais" name="igual" value="=" 
+            <input type="button" id="sinal_igual" name="igual" value="=" 
                 onclick="text1.value=eval(text1.value)">
             <input type="button" class="sinais" name="divisor" value="/"
                 onclick="displaynum(divisor.value)"><br>
