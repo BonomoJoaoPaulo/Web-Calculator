@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\style.css">
+    <title>Calculadora Web</title>
+</head>
+
+<body>
+
+    <div class="main">
+        <form action="" name="Calculator">
+
+            <input type="text" class="textomain" name="text1" value="" disabled>
+            <input type="text" class="textomain" name="text12" value="C"
+                onclick="location.reload()"><br>
+
+            <input type="button" class="numain" name="btt9" value="9" onclick="displaynum(btt9.value)">
+            <input type="button" class="numain" name="btt8" value="8" onclick="displaynum(btt8.value)">
+            <input type="button" class="numain" name="btt7" value="7" onclick="displaynum(btt7.value)">
+            <input type="button" class="sinais" name="somador" value="+"
+                onclick="displaynum(somador.value)"><br>
+
+            <input type="button" class="numain" name="btt6" value="6" onclick="displaynum(btt6.value)">
+            <input type="button" class="numain" name="btt5" value="5" onclick="displaynum(btt5.value)">
+            <input type="button" class="numain" name="btt4" value="4" onclick="displaynum(btt4.value)">
+            <input type="button" class="sinais" name="subtrator" value="-"
+                onclick="displaynum(subtrator.value)"><br>
+
+            <input type="button" class="numain" name="btt3" value="3" onclick="displaynum(btt3.value)">
+            <input type="button" class="numain" name="btt2" value="2" onclick="displaynum(btt2.value)">
+            <input type="button" class="numain" name="btt1" value="1" onclick="displaynum(btt1.value)">
+            <input type="button" class="sinais" name="multiplicador" value="*"
+                onclick="displaynum(multiplicador.value)"><br>
+
+            <input type="button" class="numain" name="dot" value="." onclick="displaynum(dot.value)">
+            <input type="button" class="numain" name="btt0" value="0" onclick="displaynum(btt0.value)">
+            <input type="button" class="sinais" name="igual" value="=" 
+                onclick="text1.value=eval(text1.value)">
+            <input type="button" class="sinais" name="divisor" value="/"
+                onclick="displaynum(divisor.value)"><br>
+
+        </form>
+
+    </div>
+ 
+</body>
+
+<script src="javascript\script.js"></script>
+
+</html>
